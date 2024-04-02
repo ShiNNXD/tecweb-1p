@@ -48,7 +48,37 @@
         </label>
         <!-- <button type="submit">Enviar</button> -->
     </form>
+    <hr>
 
+    <form method="_GET">
+        <label for="nome">Nome
+            <input type="text" name="nome" id="nome">
+        </label>
+
+        <label for="email">Email
+            <input type="email" name="email" id="email">
+        </label>
+
+        <label for="mensagem">
+            <textarea name="mensagem" id="mensagem"></textarea>
+        </label>
+        <br><br>
+
+        <input type="submit" value="Enviar Mensagem">
+    </form>
+
+    <hr>
+
+    <form method="post">
+        <label for="nascimento">Data de Nascimento
+            <input type="date" name="nascimento" id="nascimento">
+        </label>
+        <br><br>
+        <button type="submit">Enviar Mensagem</button>
+        <button type="reset">Resetar Mensagem</button>
+
+        
+    </form>
 </body>
 
 </html>
